@@ -7,7 +7,7 @@ uv run python ./src/download_pmc.py \
   --outdir ./data \
   --workers 16
 
-# txtのダウンロード
+# xmlのダウンロード
 uv run python ./src/download_pmc.py \
   --html ./html/2026-02-02_xml.html \
   --outdir ./data \
