@@ -11,5 +11,6 @@ uv run python ./src/download_pmc.py \
 uv run python ./src/download_pmc.py \
   --html ./html/2026-02-02_xml.html \
   --outdir ./data \
-  --workers 32
+  --format xml \
+  --workers 16
 ```
